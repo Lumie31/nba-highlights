@@ -1,4 +1,4 @@
-# Project: NBA Teams Highlight 🏀🎽 🏆
+# Project: NBA Teams Highlight 🏀🎽🏆
 
 A React application that showcases various NBA Teams, their players and other relevant information about them!
 
