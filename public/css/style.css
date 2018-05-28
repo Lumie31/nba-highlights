@@ -63,16 +63,24 @@ footer {
 
 /*SLIDER*/
 
+.item-slider img {
+  width: 100%;
+  /* background-size: cover !important; */
+  /* background-position: center center !important; */
+  position: relative;
+}
+
 .item-slider {
   height: 700px;
-  background-size: cover !important;
-  background-position: center center !important;
+  /* background-size: cover !important;
+  background-position: center center !important; */
   position: relative;
+  display: inline-block;
   font-family: 'Fjalla One';
   /* background: url('/images/covers/cover_2.jpg') no-repeat; */
 }
 
-.item-slider .caption {
+.item-slider span.caption {
   color: #fff;
   position: absolute;
   right: 0px;
@@ -80,6 +88,16 @@ footer {
   text-align: right;
   width: 320px;
   text-transform: uppercase;
+  /*-----------------*/
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* padding: 5px; */
+  /* margin-top: -14px; */
+  /* margin-left: -50px; */
+  /* width: 100px; */
+  /* background-color: white; */
+  /* text-align: center; */
 }
 
 .item-slider .caption h4 {

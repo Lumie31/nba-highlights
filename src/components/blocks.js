@@ -29,6 +29,7 @@ const generateBlocks = ({ block }) => {
 };
 
 const Blocks = props => {
+  // console.log(props);
   return <div className="home_blocks">{generateBlocks(props)}</div>;
 };
 
