@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 
 //COMPONENTS
 import Header from "./header";
@@ -11,15 +11,15 @@ import Team from "./team";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <div>
+      <HashRouter>
+        <Switch>
           <Header />
           <Route exact path="/" component={Home} />
           <Route exact path="/teams" component={Teams} />
           <Route exact path="/team/:id" component={Team} />
           <Footer />
-        </div>
-      </BrowserRouter>
+        </Switch>
+      </HashRouter>
     );
   }
 }
