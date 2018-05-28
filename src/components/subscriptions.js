@@ -86,7 +86,7 @@ class Subscriptions extends Component {
         </div>
         <small>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua
+          eiusmod tempor incididunt ut labore et dolore magna aliqu
         </small>
       </div>
     );
