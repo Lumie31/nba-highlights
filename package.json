@@ -1,7 +1,7 @@
 {
   "name": "nba-highlights",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://Lumie31.github.io/nba-highlights",
   "dependencies": {
     "animate.css": "^3.6.1",
